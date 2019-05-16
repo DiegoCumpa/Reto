@@ -1,0 +1,53 @@
+2019-05-15 13:50:43.612  INFO 1064 --- [main] c.d.r.p.ProyectoRetoApplication          : Starting ProyectoRetoApplication on LIM-5CD5447V1M with PID 1064 (C:\Users\jcumpale\Desktop\Reto\ProyectoReto\target\classes started by jcumpale in C:\Users\jcumpale\Desktop\Reto\ProyectoReto)
+2019-05-15 13:50:43.632  INFO 1064 --- [main] c.d.r.p.ProyectoRetoApplication          : No active profile set, falling back to default profiles: default
+2019-05-15 13:50:46.999  INFO 1064 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-15 13:50:47.169  INFO 1064 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 152ms. Found 4 repository interfaces.
+2019-05-15 13:50:48.036  INFO 1064 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9b70badf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-15 13:50:52.446  INFO 1064 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-05-15 13:50:52.528  INFO 1064 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-15 13:50:52.528  INFO 1064 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-15 13:50:53.097  INFO 1064 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-05-15 13:50:53.097  INFO 1064 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 9099 ms
+2019-05-15 13:50:53.908  INFO 1064 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-05-15 13:50:54.361  INFO 1064 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-05-15 13:50:54.593  INFO 1064 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-15 13:50:54.979  INFO 1064 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2019-05-15 13:50:54.983  INFO 1064 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-05-15 13:50:55.864  INFO 1064 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-05-15 13:50:56.357  INFO 1064 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2019-05-15 13:50:56.926  INFO 1064 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000421: Disabling contextual LOB creation as hibernate.jdbc.lob.non_contextual_creation is true
+2019-05-15 13:50:56.945  INFO 1064 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@516462cc
+2019-05-15 13:50:58.923  INFO 1064 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-15 13:51:00.400  INFO 1064 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-15 13:51:00.543  WARN 1064 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-05-15 13:51:01.230  INFO 1064 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-05-15 13:51:01.245  INFO 1064 --- [main] c.d.r.p.ProyectoRetoApplication          : Started ProyectoRetoApplication in 19.851 seconds (JVM running for 22.903)
+"2019-05-15 13:56:52 [main] INFO  c.d.r.p.ProyectoRetoApplication - Starting ProyectoRetoApplication on LIM-5CD5447V1M with PID 10344 (C:\Users\jcumpale\Desktop\Reto\ProyectoReto\target\classes started by jcumpale in C:\Users\jcumpale\Desktop\Reto\ProyectoReto)
+""2019-05-15 13:56:52 [main] INFO  c.d.r.p.ProyectoRetoApplication - No active profile set, falling back to default profiles: default
+""2019-05-15 13:56:55 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+""2019-05-15 13:56:55 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 227ms. Found 4 repository interfaces.
+""2019-05-15 13:56:56 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4667790f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2019-05-15 13:56:57 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""2019-05-15 13:56:57 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2019-05-15 13:56:57 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+""2019-05-15 13:56:57 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2019-05-15 13:56:57 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5235 ms
+""2019-05-15 13:56:58 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2019-05-15 13:56:58 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2019-05-15 13:56:58 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+""2019-05-15 13:56:59 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.9.Final}
+""2019-05-15 13:56:59 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+""2019-05-15 13:56:59 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+""2019-05-15 13:56:59 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+""2019-05-15 13:57:00 [main] INFO  o.h.e.j.e.i.LobCreatorBuilderImpl - HHH000421: Disabling contextual LOB creation as hibernate.jdbc.lob.non_contextual_creation is true
+""2019-05-15 13:57:00 [main] INFO  org.hibernate.type.BasicTypeRegistry - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@330c1f61
+""2019-05-15 13:57:01 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2019-05-15 13:57:02 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+""2019-05-15 13:57:02 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2019-05-15 13:57:02 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+""2019-05-15 13:57:02 [main] INFO  c.d.r.p.ProyectoRetoApplication - Started ProyectoRetoApplication in 11.515 seconds (JVM running for 12.505)
+"
